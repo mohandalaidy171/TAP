@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+
+  border:1px solid #0000FF
+}
+
+header {
+  overflow: hidden;
+ 
+}
+
+header nav {
+    float: right;
+    margin-right: 50px;
+  }
+header nav a {
+  float: left;
+  color: #000000
+  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #000000
+  ;
+}
+header nav i {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+
+header nav  a.active,header nav #active {
+
+  color: #FFD700;
+}
+section section{display:inline-block;}
+section img {width: 500Px; height: 500px; margin-left: 250px;margin-top: 50px; display: block;
+    clip-path: polygon(50% 10%, 80% 0%, 82% 100%, 18% 100%, 0% 38%); /* Clip Path */
+    height: auto;
+
+}
+
+section h1{color: #6497b1;font-size: 40px;margin-left: 40px;}
+section .h3{color: #6497b1;font-size: 30px;margin-left: 50px;}
+section article p{font-size: 20px;margin-left: 40px;}
+section .other{color: #6497b1;}
+
+section span{color:#96883c;}
+.one{padding-top: 40px;}
+.btn1{color: #ffffff;background-color:#6497b1 ;height: 30px;width: 100px;margin-left: 40px;border: 1px solid #6497b1 ;border-radius: 5px;}
+.btn2{color: #6497b1 ;margin-bottom: 30px;margin-left: 20px;background-color:#ffffff ;height: 30px;width: 150px;border:  1px solid #6497b1;border-radius: 5px}
+
+.lastsec{            position: relative;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 500px;height: 490px;
+    background-color:#FF0066;
+    margin-top: 205px;
+    margin-left:822px;
+}
